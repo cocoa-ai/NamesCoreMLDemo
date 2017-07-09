@@ -53,4 +53,10 @@ print pipeline.score(X_test, y_test)
 
 # Convert to CoreML model
 coreml_model = coremltools.converters.sklearn.convert(pipeline)
+coreml_model.author = 'http://nlpforhackers.io'
+coreml_model.license = 'Unknown'
+coreml_model.short_description = 'Gender Classification using DecisionTreeClassifier'
+coreml_model.input_description['input'] = 'A first name.'
+coreml_model.output_description['classLabel'] = 'The most likely gender, for the given input. (F|M)'
+coreml_model.output_description['classProbability'] = 'The probabilities for each gender, for the given input.'
 coreml_model.save('Names.mlmodel')
