@@ -56,7 +56,7 @@ coreml_model = coremltools.converters.sklearn.convert(pipeline)
 coreml_model.author = 'http://nlpforhackers.io'
 coreml_model.license = 'Unknown'
 coreml_model.short_description = 'Gender Classification using DecisionTreeClassifier'
-coreml_model.input_description['input'] = 'A first name.'
+coreml_model.input_description['input'] = 'Features extracted from the first name.'
 coreml_model.output_description['classLabel'] = 'The most likely gender, for the given input. (F|M)'
 coreml_model.output_description['classProbability'] = 'The probabilities for each gender, for the given input.'
-coreml_model.save('Names.mlmodel')
+coreml_model.save('NamesDT.mlmodel')
