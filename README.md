@@ -4,7 +4,7 @@ A Demo application using `CoreML` framework for predicting gender from first
 names.
 
 <div align="center">
-<img src="https://github.com/cocoa-ml/NamesCoreMLDemo/blob/master/Screenshot.png" alt="NamesCoreMLDemo" width="300" height="533" />
+<img src="https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Screenshot.png" alt="NamesCoreMLDemo" width="300" height="533" />
 </div>
 
 ## Model
@@ -14,11 +14,11 @@ boy and girl names using [datasets](https://www.ssa.gov/oact/babynames/limits.ht
 with the popularity of baby names over the years from The US Social Security
 Administration.
 
-[CoreML model](https://github.com/cocoa-ml/NamesCoreMLDemo/blob/master/Names/Resources/NamesDT.mlmodel)
+[CoreML model](https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Names/Resources/NamesDT.mlmodel)
 were converted from [Scikit-learn Pipeline](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 using [coremltools](https://pypi.python.org/pypi/coremltools) python package.
 
-You can find training and conversion source code [here](https://github.com/cocoa-ml/NamesCoreMLDemo/blob/master/Classifier/names.py).
+You can find training and conversion source code [here](https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Classifier/names.py).
 
 ## Requirements
 
@@ -28,10 +28,9 @@ You can find training and conversion source code [here](https://github.com/cocoa
 ## Installation
 
 ```sh
-git clone https://github.com/cocoa-ml/FacesVisionDemo.git
-cd FacesVisionDemo
-pod install
-open FacesVisionDemo.xcworkspace/
+git clone https://github.com/cocoa-ai/NamesCoreMLDemo.git
+cd NamesCoreMLDemo
+open Names.xcodeproj/
 ```
 
 Build the project and run it on a simulator or a device with iOS 11.
