@@ -15,7 +15,7 @@ with the popularity of baby names over the years from The US Social Security
 Administration.
 
 [CoreML model](https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Names/Resources/NamesDT.mlmodel)
-were converted from [Scikit-learn Pipeline](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+was converted from [Scikit-learn Pipeline](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 using [coremltools](https://pypi.python.org/pypi/coremltools) python package.
 
 You can find training and conversion source code [here](https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Classifier/names.py).
