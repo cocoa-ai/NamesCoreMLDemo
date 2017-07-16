@@ -18,8 +18,6 @@ Administration.
 was converted from [Scikit-learn Pipeline](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 using [coremltools](https://pypi.python.org/pypi/coremltools) python package.
 
-You can find training and conversion source code [here](https://github.com/cocoa-ai/NamesCoreMLDemo/blob/master/Classifier/names.py).
-
 ## Requirements
 
 - Xcode 9
@@ -34,6 +32,13 @@ open Names.xcodeproj/
 ```
 
 Build the project and run it on a simulator or a device with iOS 11.
+
+## Conversion
+
+```sh
+cd Convert
+python names.py
+```
 
 ## Author
 
