@@ -41,7 +41,7 @@ private extension ClassificationService {
     keys.append("first3-letters=\(string.prefix(3))")
     keys.append("last-letter=\(string.suffix(1))")
     keys.append("last2-letters=\(string.suffix(2))")
-    keys.append("last3-letters\(string.suffix(3))")
+    keys.append("last3-letters=\(string.suffix(3))")
 
     return keys.reduce([String: Double]()) { (result, key) -> [String: Double] in
       var result = result
