@@ -88,12 +88,12 @@ extension ViewController: UITextFieldDelegate {
     let paragraph = NSMutableParagraphStyle()
     paragraph.minimumLineHeight = 36
 
-    let titleAttributes: [NSAttributedStringKey: Any] = [
+    let titleAttributes: [NSAttributedString.Key: Any] = [
       .font: UIFont.boldSystemFont(ofSize: 22),
       .paragraphStyle: paragraph
     ]
 
-    let valueAttributes: [NSAttributedStringKey: Any] = [
+    let valueAttributes: [NSAttributedString.Key: Any] = [
       .font: UIFont.systemFont(ofSize: 22),
       .paragraphStyle: paragraph
     ]
